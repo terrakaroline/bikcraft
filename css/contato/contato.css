@@ -1,5 +1,5 @@
 #contato {
-    background: var(--c1);
+    background: linear-gradient(var(--c11) 600px, var(--c1) 0)
 }
 
 .contato {
@@ -86,9 +86,11 @@
         margin-bottom: 32px;
     }
     
-    .contato-meios a:nth-child(3){
-        background: url("../../img/icones/telefone.svg") no-repeat 0px 2px;
+    .contato-redes{
+        margin-bottom: 12px;
     }
+
+
 
     
 }
