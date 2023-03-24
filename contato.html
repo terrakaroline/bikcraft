@@ -11,10 +11,11 @@
       content="Contato."
     />
 
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preload" href="./css/style.css" as="style">
+    <link rel="stylesheet" href="./css/style.css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
   </head>
   <body id="contato">
     <header class="header-bg">
@@ -44,13 +45,13 @@
       <div class="contato container">
         <section class="contato-dados" aria-label="Endereço">
           <h2 class="font-1-m c0">Loja Online</h2>
-          <div class="contato-endereco font-2-s c4">
+          <div class="contato-endereco font-2-s c6">
             <p>Rua Ali Perto, 35</p>
             <p>Rio de Janeiro - RJ</p>
             <p>Brasil - Terra - Via Láctea</p>
           </div>
-          <address class="contato-meios font-2-s c4">
-            <a href="mailto:contato@bikcraft.com">contato@bikcraft.com</a>
+          <address class="contato-meios font-2-s c6">
+            <a class="c6" href="mailto:contato@bikcraft.com">contato@bikcraft.com</a>
             <a href="mailto:assistencia@bikcraft.com">assistencia@bikcraft.com</a>
             <a href="tel:+55219999999">+55 21 9999-9999</a>
           </address>
