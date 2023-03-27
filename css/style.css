@@ -10,6 +10,7 @@
 
 @import "./utilidades/componentes.css";
 @import "./utilidades/formulario.css";
+@import "./utilidades/animacao.css";
 
 
 /* HOME */
@@ -27,6 +28,7 @@
 
 @import "./bicicleta/bicicleta.css";
 @import "./bicicleta/seguro.css";
+
 
 
 /* SEGUROS */
